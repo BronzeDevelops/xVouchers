@@ -1,0 +1,6 @@
+services\xenlan\vouchers\objects\Voucher.class
+services\xenlan\vouchers\manager\VoucherManager.class
+services\xenlan\vouchers\vouchers\xVouchers.class
+services\xenlan\vouchers\files\YamlDoc.class
+services\xenlan\vouchers\commands\VoucherCommand.class
+services\xenlan\vouchers\listeners\VoucherInteract.class

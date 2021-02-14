@@ -1,0 +1,29 @@
+vouchers:
+  Test:
+    item:
+      item-name: "&e&l[!] &fTest &eVoucher"
+      item-material: PAPER
+      amount: 1
+      enchanted: false
+      lore:
+        - ""
+        - "&7This is a line"
+        - "&7This is another line"
+    commands:
+      - "give %player% diamond 16"
+    redeem-message: true
+    redeem-msg: "%player% has redeemed the Test Voucher!"
+  Example:
+    item:
+      item-name: "&e&l[!] &fExample &eVoucher"
+      item-material: PAPER
+      amount: 1
+      enchanted: true
+      lore:
+        - ""
+        - "&7This is a line"
+        - "&7This is another line"
+    commands:
+      - "give %player% emerald 64"
+    redeem-message: false
+    redeem-msg: "%player% has redeemed the Example Voucher!"
